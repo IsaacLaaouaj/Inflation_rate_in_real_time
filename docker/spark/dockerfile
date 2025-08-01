@@ -1,0 +1,7 @@
+FROM bitnami/spark
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+COPY spark_stream.py .
+CMD ["spark-submit", "spark_stream.py"]

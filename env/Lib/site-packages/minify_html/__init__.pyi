@@ -1,0 +1,18 @@
+def minify(
+    code: str,
+    allow_noncompliant_unquoted_attribute_values: bool = False,
+    allow_optimal_entities: bool = False,
+    allow_removing_spaces_between_attributes: bool = False,
+    keep_closing_tags: bool = False,
+    keep_comments: bool = False,
+    keep_html_and_head_opening_tags: bool = False,
+    keep_input_type_text_attr: bool = False,
+    keep_ssi_comments: bool = False,
+    minify_css: bool = False,
+    minify_doctype: bool = False,
+    minify_js: bool = False,
+    preserve_brace_template_syntax: bool = False,
+    preserve_chevron_percent_template_syntax: bool = False,
+    remove_bangs: bool = False,
+    remove_processing_instructions: bool = False,
+) -> str: ...
