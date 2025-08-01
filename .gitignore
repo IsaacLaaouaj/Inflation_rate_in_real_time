@@ -1,0 +1,6 @@
+# Ignorar archivos de entorno con claves
+.env
+*.env
+.env.*
+.envrc
+.env.dev
